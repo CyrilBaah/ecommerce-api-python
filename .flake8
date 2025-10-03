@@ -1,5 +1,5 @@
 [flake8]
-extend-ignore =  F403, F405,
+extend-ignore =  F403, F405, F401
 exclude = .git, .venv, migrations, env, venv
 max-line-length = 91
 max-complexity = 10

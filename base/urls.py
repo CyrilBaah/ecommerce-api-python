@@ -23,8 +23,8 @@ from django.urls import include, path
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("health/", include("health.urls"), name="health"),
-    # path("products/", include("product.urls"), name="products"),
-    # path("categories/", include("category.urls"), name="categories"),
+    path("", include("product.urls"), name="products"),
+    path("", include("category.urls"), name="categories"),
 ]
 
 
